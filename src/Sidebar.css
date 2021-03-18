@@ -1,3 +1,20 @@
+.sidebar {
+  /* To use the full width of the page */
+  /* flex: 1; */
+  flex: 0.35;
+}
 .sidebar__header {
+  /* everything goes into a row now */
   display: flex;
+
+  justify-content: space-between;
+  padding: 20px;
+  border-right: 1px solid lightgray;
+}
+
+.sidebar__headerRight {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 10vw;
 }
