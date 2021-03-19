@@ -6,6 +6,7 @@ import DonutLargeIcon from "@material-ui/icons/DonutLarge";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
 import ChatIcon from "@material-ui/icons/Chat";
 import SearchOutlined from "@material-ui/icons/Search";
+import SidebarChat from "./SidebarChat";
 
 const Sidebar = () => {
   return (
