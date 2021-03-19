@@ -35,6 +35,13 @@ const Sidebar = () => {
 
       <div className="div sidebar__chats">
         <SidebarChat addNewChat />
+        <SidebarChat />
+        <SidebarChat />
+        <SidebarChat />
+        <SidebarChat />
+        <SidebarChat />
+        <SidebarChat />
+        <SidebarChat />
       </div>
     </div>
   );
