@@ -10,6 +10,13 @@ const SidebarChat = ({ addNewChat }) => {
     setSeed(Math.floor(Math.random() * 5000));
   }, []);
 
+  const createChat = () => {
+    const roomName = prompt("Please enter name for chat");
+    if (roomName) {
+      //do some clever stuff in the db...
+    }
+  };
+
   return !addNewChat ? (
     <div className="sidebarChat">
       <Avatar src={`https://avatars.dicebear.com/api/human/${seed}.svg`} />
