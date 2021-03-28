@@ -30,7 +30,13 @@ const Chat = () => {
           </IconButton>
         </div>
       </div>
-      <div className="div chat__body"></div>
+      <div className="div chat__body">
+        <p className="chat__message ">
+          <span className="chat__name">Muniba Waqar</span>
+          Hey Guys
+          <span className="chat__timestamp">3:47pm</span>
+        </p>
+      </div>
       <div className="div chat__footer"></div>
     </div>
   );
