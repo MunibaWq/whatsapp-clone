@@ -1,4 +1,5 @@
-import { Avatar } from "@material-ui/core";
+import { Avatar, IconButton } from "@material-ui/core";
+import { AttachFile, MoreVert, SearchOutlined } from "@material-ui/icons";
 import React, { useEffect, useState } from "react";
 import "./Chat.css";
 
@@ -13,6 +14,21 @@ const Chat = () => {
     <div className="chat">
       <div className="div chat__header">
         <Avatar src={`https://avatars.dicebear.com/api/human/${seed}.svg`} />
+        <div className="chat__headerInfo">
+          <h3>Room Name</h3>
+          <p>Last seen at...</p>
+        </div>
+        <div className="div chat__headerRight">
+          <IconButton>
+            <SearchOutlined />
+          </IconButton>
+          <IconButton>
+            <AttachFile />
+          </IconButton>
+          <IconButton>
+            <MoreVert />
+          </IconButton>
+        </div>
       </div>
       <div className="div chat__body"></div>
       <div className="div chat__footer"></div>
