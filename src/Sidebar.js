@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import "./Sidebar.css";
 
 import { Avatar, IconButton } from "@material-ui/core";
@@ -7,7 +7,7 @@ import MoreVertIcon from "@material-ui/icons/MoreVert";
 import ChatIcon from "@material-ui/icons/Chat";
 import SearchOutlined from "@material-ui/icons/Search";
 import SidebarChat from "./SidebarChat";
-import db from "./firebase";
+import db from "./firebases";
 
 const Sidebar = () => {
   const [rooms, setRooms] = useState([]);

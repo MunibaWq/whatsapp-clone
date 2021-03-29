@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./SidebarChat.css";
+import db from "./firebases";
 
 import { Avatar } from "@material-ui/core";
 
